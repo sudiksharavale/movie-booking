@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    body{
+    background:url(../images/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    form>input{
+    padding:10px;
+    }
+    #btn{
+    font-size: 30px;
+    }
+    #cr
+    {
+    background-color:white;
+    margin-left: 200px;
+    margin-right: 200px;
+    transition: 0.25s;
+    text-decoration: none;
+    }
+    #cr:hover
+    {
+    border-radius:50%;
+    color:red;
+    }
+    form
+    {
+    margin-top: 330px;
+    margin-left: 650px;
+    position: relative;
+    border-radius: 25%;
+    background:url('../images/bg2.jpg');
+    background-size: cover;
+    height:330px;
+    max-width: 570px;
+    padding: 45px;
+    text-align: center;
+    border:2px solid black;
+    }
+    .userlog>input[type="text"],.userlog>input[type="password"]
+    {
+    border:0;
+    background:none;
+    display:block;
+    margin:20px auto;
+    text-align: center;
+    border:2px solid white;
+    width: 200px;
+    outline:none;
+    color: white;
+    border-radius:24px;
+    transition: 0.25s;
+    }
+    .userlog>input[type="text"]:hover,.userlog>input[type="password"]:hover
+    {
+    width:280px;
+    border-color:red;
+    }
+    .userlog>input[type="submit"]
+    {
+    border:0;
+    background:none;
+    display:block;
+    margin:20px auto;
+    text-align: center;
+    border:2px dotted white;
+    padding:14px 40px;
+    outline:none;
+    color: white;
+    border-radius:24px;
+    transition: 0.25s;
+    cursor:pointer;
+    }
+    .userlog>input[type="submit"]:hover
+    {
+    background:green;
+    border-color:green;
+    }
+    p>a
+    {
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+    }
+    

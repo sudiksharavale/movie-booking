@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding:0px;
+    }
+    form>img
+    {
+    width:250px;
+    height:300px;
+    }
+    body
+    {
+    background: url('../images/image.jpg');
+    font-family: sans-serif;
+    background-size:100%;
+    background-repeat: no-repeat;
+    }
+    .userlog
+    {
+    margin-left: 480px;
+    margin-top: 60px;
+    }
+    form>input
+    {
+    padding: 10px;
+    }
+    form table tr td
+    {
+    display: inline;
+    width: 25%;
+    margin:10px 0px 0px 10px;
+    }
+    form
+    {
+    margin-top: 150px;
+    margin-left: 130px;
+    background: url(../images/bg1.png);
+    background-size: cover;
+    height: 500px;
+    max-width:370px;
+    padding: 45px;
+    text-align: center;
+    border: 2px solid black;
+    color:white;
+    }
+    #cost
+    {
+    font-size: 20px;
+    }
+    

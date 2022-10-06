@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ticket Booking</title>
+<link rel="stylesheet" href="../css/booking.css">
+<script src="../js/booking.js"></script>
+</head>
+<body onload='document.book.per.focus()'>
+<div class="userlog">
+<form name="book">
+<img src="../images/street.jpeg" ><br>STREET DANCER 3D
+<table>
+<tr>
+<td><br> Number of Person</td><td><input type="text" id="per" name="per" size="2"></td></tr>
+
+<tr><td>Phone</td><td><select name="countrycode"><option value="india">+91</option><option value="india">+1</option><option value="india">+92</option></select>
+<input type="text" id="phone" name="phone" placeholder="Enter your phone number"></td></tr>
+<tr><td> Email</td>
+<td><input type="email" id="email" name="email" placeholder="Enter your email"></td></tr>
+<tr><td><br>Date</td><td><input type="date" value="2020-01-01" min="2020-01-01"></td></tr>
+<tr><td> <br>Coupon</td><td><input type="text" name="cou" id="cou"><br></td></tr>
+<br><tr><td><input type="button" id="btn" value="Submit" onclick="vali()"></td><td><input type="reset"></td>
+<tr><td></td><td><select id="mySelect" disabled=true onchange="preferedBrowser()">
+<option>Select payment option</option>
+<option value=1>Cash</option>
+<option value=2>Card</option>
+<option value=3>UPI</option>
+</select></td></tr>
+</table>
+</form>
+</div>
+</body>
+</html>

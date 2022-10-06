@@ -1,0 +1,84 @@
+body
+{
+background: url('../images/bg1.png');
+font-family: sans-serif;
+background-size: cover;
+background-repeat: no-repeat;}
+h1
+{
+margin-top: 30px;
+color:white;
+text-align: center;
+border: 1px solid white;
+background-color: deepskyblue;
+}
+.a{width:250px;height:300px;align-content: center;background-image: url("../images/chhapaak.jpg");background-size: cover;display: inline-block;}
+.a:hover{width:250px;height:300px;align-content: center;background-image: url("../images/chhapaak1.jpg");background-size: cover;display: inline-block;}
+.b{width:250px;height:300px;align-content: center;background-image: url("../images/tanhaji.jpeg");background-size: cover;display: inline-block;}
+.b:hover{width:250px;height:300px;align-content: center;background-image: url("../images/tanhaji1.jpg");background-size: cover;display: inline-block;}
+.c{width:250px;height:300px;align-content: center;background-image: url("../images/street.jpeg");background-size: cover;display: inline-block;}
+.c:hover{width:250px;height:300px;align-content: center;background-image: url("../images/street1.jpeg");background-size: cover;display: inline-block;}
+.d{width:250px;height:300px;align-content: center;background-image: url("../images/malang.jpeg");background-size: cover;display: inline-block;}
+.d:hover{width:250px;height:300px;align-content: center;background-image: url("../images/malang1.jpg");background-size: cover;display: inline-block;}
+.e{width:250px;height:300px;align-content: center;background-image: url("../images/panga.jpeg");background-size: cover;display: inline-block;}
+.e:hover{width:250px;height:300px;align-content: center;background-image: url("../images/panga1.jpeg");background-size: cover;display: inline-block;}
+.f{width:250px;height:300px;align-content: center;background-image: url("../images/baaghi.jpeg");background-size: cover;display: inline-block;}
+.f:hover{width:250px;height:300px;align-content: center;background-image: url("../images/baaghi1.jpeg");background-size: cover;display: inline-block;}
+.g{width:250px;height:300px;align-content: center;background-image: url("../images/angrezi.jpg");background-size: cover;display: inline-block;}
+.g:hover{width:250px;height:300px;align-content: center;background-image: url("../images/angrezi1.jpg");background-size: cover;display: inline-block;}
+.h{width:250px;height:300px;align-content: center;background-image: url("../images/aladdin.png");background-size: cover;display: inline-block;}
+.h:hover{width:250px;height:300px;align-content: center;background-image: url("../images/aladdin1.png");background-size: cover;display: inline-block;}
+
+.i{width:250px;height:300px;align-content: center;background-image: url("../images/extraction.jpg");background-size: cover;display: inline-block;}
+.i:hover{width:250px;height:300px;align-content: center;background-image: url("../images/extraction1.jpg");background-size: cover;display: inline-block;}
+
+div>div
+{
+padding:10px;margin-left: 14px;
+}
+.movies
+{
+width: 100%;
+}
+.A
+{
+display:inline-block;
+}
+.B
+{
+display:inline-block;
+}
+.C
+{
+display:inline-block;
+}
+.D
+{
+display:inline-block;
+}
+.E
+{
+display:inline-block;
+}
+.F
+{
+display:inline-block;
+}
+.G
+{
+display:inline-block;
+}
+.H
+{
+display:inline-block;
+}
+.I
+{
+display:inline-block;
+}
+P
+{
+color: white;
+font-size:25px;
+text-align: center;
+}

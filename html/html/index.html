@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>User Login</title>
+<link rel="stylesheet" href="../css/index.css">
+</head>
+<body onload="document.log.us.focus()">
+<form name="log" class='userlog' action="html/sliding.html" onsubmit="return login()"><br><br><h1>Login</h1>
+<input type="text" name="us" id='u' placeholder="User Id" required>
+<input type="password" name="pa" id='p' placeholder="Password" required>
+<input type="submit" name="Submit" value="LOGIN"><br>
+<p id="cr"><a href="user.html">Create account</a></p><br>
+<p> <a href="sliding.html">Skip to website</a></p>
+</form>
+</body>
+<script>
+function login()
+{
+let user=document.getElementById('u').value;
+let pass=document.getElementById('p').value;
+if((user=="bvit") &&(pass=="bvit"))
+{
+return true;
+}
+else
+{
+alert('Invalid Username/Password');
+return false;
+}
+}
+</script>
+</html>
