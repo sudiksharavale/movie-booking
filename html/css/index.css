@@ -24,7 +24,7 @@
     #cr:hover
     {
     border-radius:50%;
-    color:red;
+    color:rgb(13, 255, 0);
     }
     form
     {
@@ -57,7 +57,8 @@
     .userlog>input[type="text"]:hover,.userlog>input[type="password"]:hover
     {
     width:280px;
-    border-color:red;
+    border-color:rgb(34, 202, 93);
+    background:green;
     }
     .userlog>input[type="submit"]
     {
